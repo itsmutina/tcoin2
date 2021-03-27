@@ -25,7 +25,7 @@ SECRET_KEY = 'a+p74p@@2s_)c*+mh%#5h0y9ehru6)n&44v(7s__+gz3(9)=lh'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['tcoin.herokuapp.com', '127.0.0.1']
+ALLOWED_HOSTS = ['tcoin2.herokuapp.com', '127.0.0.1']
 
 
 # Application definition

@@ -12,11 +12,3 @@ class Customer(models.Model):
     def __str__(self):
         return self.name
 
-class Amount(models.Model):
-    #person = models.ForeignKey(Customer, null = True, on_delete = models.SET_NULL)
-      
-    money_earned = models.IntegerField(null = True)
-
-    def __str__(self):
-        return self.balance, self.withdrawn
-
